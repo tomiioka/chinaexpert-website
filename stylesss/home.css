@@ -1,0 +1,55 @@
+section {
+  padding:100px 200px;
+}
+.main {
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  background:url("../thumbnails/shenzen.jpg") no-repeat;
+  background-size: cover;
+  background-position:top center;
+  display:inline-block;
+}
+.main h2 {
+  color:black;
+  font-size:25px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+.main h2 span {
+  display:inline-block;
+  margin-top:20px;
+  font-family:'Great vibes',cursive;
+}
+.main h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size:25;
+  letter-spacing: 1px;
+  margin-top:15px;
+  margin-bottom:30px;
+}
+.main-btn {
+  color:white;
+  background-color:#3a6cf4;
+  text-decoration:none;
+  font-size:1.1em;
+  font-weight:600;
+  display:inline-block;
+  padding: 0.9375em 2.1875em;
+  border-radius:15px;
+  margin-bottom:40px;
+  transition:0.15s ease;
+  margin-top: 100px;
+}
+.main-btn:hover {
+  background-color:#0a49f6;
+  transform:scale(1.05);
+}
+.social-icons a{
+  color:white;
+  font-size:1.3em;
+  padding-right:25px;
+}
+
+
